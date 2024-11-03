@@ -1,0 +1,86 @@
+footer {
+    background-image: url(/acses/img/footer-bg-img.png);
+    padding: 6% 6% 1% 6%;
+  .footer-flex {
+    display: flex;
+    gap: 90px;
+    .footer-text1 {
+      width: 30%;
+      h2 {
+        font-size: 20px;
+        color: white;
+      }
+      p {
+        line-height: 21px;
+        width: 80%;
+        font-size: 15px;
+        color: white;
+        margin-top: 20px;
+      }
+      input{
+          width: 80%;
+          padding: 10px 10px;
+          border-radius: 10px;
+          border: none;
+          margin-top: 20px;
+      }
+    }
+    .footer-text2 {
+      h3 {
+        font-size: 16px;
+        color: white;
+        opacity: 0.5;
+      }
+      p {
+        font-size: 16px;
+        color: white;
+        margin-top: 20px;
+      }
+    }
+    .footer-text3 {
+      h3 {
+        font-size: 16px;
+        color: white;
+        opacity: 0.5;
+      }
+      p {
+        font-size: 15px;
+        color: white;
+        margin-top: 20px;
+      }
+    }
+    .footer-text4 { 
+      h3 {
+        font-size: 16px;
+        color: white;
+        opacity: 0.5;
+      }
+      p {
+        font-size: 15px;
+        color: white;
+        margin-top: 20px;
+      }
+    }
+    .footer-text5 {
+      h3 {
+        font-size: 16px;
+        color: white;
+        opacity: 0.5;
+      }
+      p {
+        font-size: 15px;
+        color: white;
+        margin-top: 20px;
+      }
+    }
+  }
+  .footer-icon {
+    display: flex;
+    gap: 10px;
+    margin-top: 96px;
+    margin-left: 85%;
+    img {
+      cursor: pointer;
+    }
+  }
+}

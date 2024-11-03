@@ -1,0 +1,57 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6% 0 6% 6%;
+
+  .main-flex {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    .main-text {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      h2 {
+        font-size: 67px;
+        color: #49464f;
+      }
+      ol {
+        margin-left: 7%;
+        line-height: 40px;
+
+        li {
+          font-size: 28px;
+          color: #49464f;
+          &:hover {
+            cursor: pointer;
+            color: #7140eb;
+            transition: all 0.5s;
+          }
+        }
+      }
+      button {
+        width: 35%;
+        height: 40px;
+        border-radius: 30px;
+        border: none;
+        background-color: #7140eb;
+        color: #fff;
+        font-size: 18px;
+        &:hover {
+          cursor: pointer;
+          background-color: blue;
+          transition: all 0.5s;
+        }
+        &:active {
+          transform: scale(0.9);
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+  .main-img {
+    margin-left: 1.9%;
+  }
+}

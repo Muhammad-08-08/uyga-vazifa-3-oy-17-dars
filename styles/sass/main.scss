@@ -1,0 +1,25 @@
+@import "header";
+@import "mainstyle";
+@import "section";
+@import "rest";
+@import "berlin";
+@import "charge";
+@import "know";
+@import "say";
+@import "footer";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: lightgray;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: white;
+}

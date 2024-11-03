@@ -1,0 +1,53 @@
+.rest {
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
+  align-items: center;
+
+  .rest-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h2 {
+      width: 90%;
+      font-size: 67px;
+      color: #2e2c34;
+    }
+    p {
+      width: 64%;
+      line-height: 20px;
+      font-size: 20px;
+      color: #2e2c34;
+    }
+    button {
+      width: 35%;
+      padding: 16px 24px;
+      border-radius: 25px;
+      background-color: white;
+      font-size: 16px;
+      margin-top: 11px;
+      &:hover {
+        cursor: pointer;
+        background-color: blue;
+        color: white;
+        transition: all 0.5s;
+        border: none;
+      }
+      &:active {
+        transform: scale(0.9);
+        opacity: 0.8;
+      }
+    }
+  }
+  .rest-img {
+    img {
+      flex-shrink: 2;
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: all 0.5s;
+        opacity: 0.8;
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.say{
+    padding: 5% 8% 7% 8%;
+    h2{
+        font-size: 66px;
+        color: #49464F;
+        margin-bottom: 98px;
+    }
+    .say-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        .say-text1{
+            width: 30%;
+            h3{
+                width: 90%;
+                font-size: 29px;
+                color: #49464F;
+            }
+            p{
+                font-size: 17px;
+                color: #49464F;
+                margin-top: 19px;
+            }
+        }
+        .say-text2{
+            width: 30%;
+            h3{
+                width: 99%;
+                font-size: 29px;
+                color: #49464F;
+            }
+            p{
+                font-size: 17px;
+                color: #49464F;
+                margin-top: 47px;
+            }
+        }
+        .say-text3{
+            width: 30%;
+            h3{
+                width: 85%;
+                font-size: 29px;
+                color: #49464F;
+            }
+            p{
+                font-size: 17px;
+                margin-top: 19px;
+                color: #49464F;
+            }
+        }
+    }
+}

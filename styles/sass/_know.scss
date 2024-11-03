@@ -1,0 +1,42 @@
+.know{
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0;
+    .know-text1{
+        width: 36%;
+        h2{
+            font-family: Roboto;
+            width: 60%;
+            font-size: 67px;
+            color: #2E2C34;
+        }
+        button{
+            width: 39%;
+            padding: 10px 10px;
+            border-radius: 25px;
+            font-size: 16px;
+            margin-top: 53px;
+            &:hover{
+                cursor: pointer;
+                background-color:  #7140EB;
+                color: white;
+                transition: all 0.5s;
+                border: none;
+            }
+            &:active{
+                transform: scale(0.9);
+                opacity: 0.8;
+            }
+        }
+    }
+    .know-text2{
+
+        p{
+            margin-top: 45px;
+            font-size: 20px;
+            color: #2E2C34;
+        }
+    }
+}

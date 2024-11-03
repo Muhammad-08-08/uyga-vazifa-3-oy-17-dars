@@ -1,0 +1,140 @@
+.charge {
+  background-color: white;
+  padding: 6%;
+  display: flex;
+//   justify-content: center;
+
+  .charge-text {
+    width: 35%;
+    h2 {
+      width: 90%;
+      font-size: 67px;
+      color: #2e2c34;
+      margin-bottom: 20px;
+    }
+    p {
+      width: 60%;
+      font-size: 20px;
+      color: #2e2c34;
+    }
+    .charge-span {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 36px;
+
+      .span {
+        width: 66%;
+        font-size: 20px;
+        color: #2e2c34;
+        padding: 10px;
+        background-color: #f5f5f7;
+        border-radius: 40px;
+      }
+      .span1 {
+        width: 82%;
+        font-size: 20px;
+        color: #2e2c34;
+        padding: 10px;
+        background-color: #f5f5f7;
+        border-radius: 40px;
+      }
+
+      .span2 {
+        width: 66%;
+        font-size: 20px;
+        color: #2e2c34;
+        padding: 10px;
+        background-color: #f5f5f7;
+        border-radius: 40px;
+      }
+
+      .span3 {
+        width: 50%;
+        font-size: 20px;
+        color: #2e2c34;
+        padding: 10px;
+        background-color: #f5f5f7;
+        border-radius: 40px;
+      }
+    }
+  }
+
+  .charge-img {
+    width: 65%;
+    display: flex;
+    gap: 30px;
+
+    .charge-img-child {
+        width: 100%;
+        background-color: #F5F5F7;
+        padding: 2%;
+        border-radius: 16px;
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.05);
+          transition: all 0.5s;
+          opacity: 0.8;
+        }
+        img {
+          width: 100%;
+          flex-shrink: 2;
+        }
+        .from {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          margin-bottom: 39px;
+          p {
+            font-size: 18px;
+            color: #49464f;
+          }
+          button {
+            padding: 2px 6px;
+            border: none;
+            border-radius: 20px;
+            background-color: #f1eef8;
+            color: #7140eb;
+            font-size: 16px;
+            &:hover {
+              cursor: pointer;
+              background-color: blue;
+              color: white;
+              transition: all 0.5s;
+            }
+            &:active {
+              transform: scale(0.9);
+              opacity: 0.8;
+            }
+          }
+        }
+        h3 {
+          font-size: 29px;
+          color: #49464f;
+        }
+        p {
+          font-size: 18px;
+          color: #49464f;
+        }
+        button {
+          padding: 16px 24px;
+          border-radius: 25px;
+          background-color: #7140EB;
+          color: white;
+          border: none;
+          font-size: 16px;
+          margin-top: 11px;
+          &:hover {
+            cursor: pointer;
+            background-color: blue;
+            transition: all 0.5s;
+            border: none;
+          }
+          &:active {
+            transform: scale(0.9);
+            opacity: 0.8;
+          }
+        }
+      }
+  }
+}

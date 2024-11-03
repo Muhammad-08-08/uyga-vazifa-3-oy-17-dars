@@ -1,0 +1,98 @@
+header {
+  width: 100%;
+  background-size: cover;
+  padding: 15px 40px 183px;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 170px;
+      flex-shrink: 2;
+    }
+    .navflex {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+
+      ul {
+        display: flex;
+        li {
+          list-style: none;
+          a {
+            text-decoration: none;
+            color: white;
+            padding: 0 20px;
+            &:hover {
+              color: rgb(72, 255, 0);
+              transition: all 0.5s;
+            }
+            &:active {
+              opacity: 60%;
+            }
+          }
+        }
+      }
+      button {
+        padding: 10px 50px;
+        border: none;
+        border-radius: 20px;
+        background-color: #7140eb;
+        color: #fff;
+        font-size: 18px;
+        &:hover {
+          cursor: pointer;
+          background-color: blue;
+          transition: all 0.5s;
+        }
+        &:active {
+          transform: scale(0.9);
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+  // ? navbar tugadi
+
+  .hero {
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+
+    h1 {
+      width: 45%;
+      font-size: 99px;
+      color: #fff;
+      margin: 0 auto;
+    }
+    p {
+      width: 23%;
+      font-size: 21px;
+      color: #fff;
+      margin: 0 auto;
+      line-height: 30px;
+    }
+    button {
+      width: 15%;
+      padding: 10px 50px;
+      border: none;
+      border-radius: 20px;
+      background-color: #7140eb;
+      color: #fff;
+      font-size: 18px;
+      margin: 0 auto;
+      &:hover {
+        cursor: pointer;
+        background-color: blue;
+        transition: all 0.5s;
+      }
+      &:active {
+        transform: scale(0.9);
+        opacity: 0.8;
+      }
+    }
+  }
+}
